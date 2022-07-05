@@ -10,4 +10,11 @@ class Admin extends CI_Controller
     $this->load->view('backend/content/dashboard_view');
     $this->load->view('backend/footer_view');
   }
+
+  public function product()
+  {
+    $this->load->view('backend/header_view');
+    // $this->load->view('backend/content/dashboard_view');
+    $this->load->view('backend/footer_view');
+  }
 }
