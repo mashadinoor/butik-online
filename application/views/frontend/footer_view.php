@@ -48,8 +48,8 @@
                 </form>
               </div>
               <div class="footer-contact">
-                <p><span><i class="ti-location-pin"></i></span> 77 Seventh avenue USA 12555. </p>
-                <p><span><i class=" ti-headphone-alt "></i></span> +88 (015) 609735 or +88 (012) 112266</p>
+                <p><span><i class="ti-location-pin"></i></span> Kel. Paseban, Kec. Senen, Jakarta Pusat </p>
+                <p><span><i class=" ti-headphone-alt "></i></span> (+62) 815-1125-9423</p>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@
           <div class="copyright">
             <p>
               Copyright ©
-              <a href="hastech.company/">HasTech</a> 2021 . All Right Reserved.
+              <a href="instagram.com/mashadinoor">Mashadinoor</a> 2022 . All Right Reserved.
             </p>
           </div>
         </div>
