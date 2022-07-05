@@ -7,7 +7,7 @@ class About extends CI_Controller
   public function index()
   {
     $this->load->view('frontend/header_view');
-    $this->load->view('content/about_us_view');
+    $this->load->view('frontend/content/about_us_view');
     $this->load->view('frontend/footer_view');
   }
 }

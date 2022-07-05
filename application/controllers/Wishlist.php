@@ -7,7 +7,7 @@ class Wishlist extends CI_Controller
   public function index()
   {
     $this->load->view('frontend/header_view');
-    $this->load->view('content/wishlist_view');
+    $this->load->view('frontend/content/wishlist_view');
     $this->load->view('frontend/footer_view');
   }
 }
