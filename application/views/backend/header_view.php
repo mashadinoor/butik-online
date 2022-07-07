@@ -28,7 +28,7 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
         <div class="sidebar-brand-icon">
           <img src="<?= base_url('assets/img/logo/logo-6.png'); ?>" alt="" style="width: 90%; margin-left: 15%">
         </div>
@@ -62,8 +62,8 @@
         <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <a class="collapse-item" href="<?= base_url('Product/add'); ?>">Add Product</a>
-            <a class="collapse-item" href="#">Edit Product</a>
-            <a class="collapse-item" href="#">Quantity</a>
+            <a class="collapse-item" href="<?= base_url('Product/list'); ?>">List Product</a>
+            <a class="collapse-item" href="<?= base_url('Product/stock'); ?>">Stock Product</a>
           </div>
         </div>
       </li>
