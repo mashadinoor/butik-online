@@ -76,10 +76,9 @@
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="#">Create Manual</a>
-            <a class="collapse-item" href="#">Active</a>
-            <a class="collapse-item" href="#">Pending</a>
-            <a class="collapse-item" href="#">History</a>
+            <a class="collapse-item" href="<?= base_url('Transaction/active'); ?>">Active</a>
+            <a class="collapse-item" href="<?= base_url('Transaction/pending'); ?>">Pending</a>
+            <a class="collapse-item" href="<?= base_url('Transaction/history'); ?>">History</a>
           </div>
         </div>
       </li>
@@ -93,8 +92,6 @@
         <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <a class="collapse-item" href="#">List Costumers</a>
-            <a class="collapse-item" href="#">Create Coupon</a>
-            <a class="collapse-item" href="#">Affiliate</a>
             <a class="collapse-item" href="#">Advice</a>
           </div>
         </div>
