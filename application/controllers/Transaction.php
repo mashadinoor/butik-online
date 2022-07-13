@@ -14,14 +14,14 @@ class Transaction extends CI_Controller
   public function pending()
   {
     $this->load->view('backend/header_view');
-    // $this->load->view('backend/content/product_stock_view');
+    $this->load->view('backend/content/transaction_pending_view');
     $this->load->view('backend/footer_view');
   }
 
   public function history()
   {
     $this->load->view('backend/header_view');
-    // $this->load->view('backend/content/product_add_view');
+    $this->load->view('backend/content/transaction_history_view');
     $this->load->view('backend/footer_view');
   }
 }

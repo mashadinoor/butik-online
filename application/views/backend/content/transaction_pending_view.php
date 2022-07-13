@@ -3,7 +3,7 @@
 
   <!-- Page Heading -->
   <!-- <h1 class="h3 mb-2 text-gray-800">Tables</h1> -->
-  <h3 class="display-5">Active Transaction</h3>
+  <h3 class="display-5">Pending Transaction</h3>
   <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
     For more information about DataTables, please visit the <a target="_blank" href="https://datatables.net">official DataTables documentation</a>.</p>
 
@@ -22,7 +22,7 @@
               <th>ID Product</th>
               <th>Total Price</th>
               <th>Status</th>
-              <th>Number Receipt</th>
+              <th>Approved</th>
             </tr>
           </thead>
           <tfoot>
@@ -32,25 +32,25 @@
               <th>ID Product</th>
               <th>Total Price</th>
               <th>Status</th>
-              <th>Number Receipt</th>
+              <th>Approved</th>
             </tr>
           </tfoot>
           <tbody>
             <tr>
-              <td>0001</td>
+              <td>0003</td>
               <td>0001</td>
               <td>0001 x 2</td>
               <td>100000</td>
-              <td>Shipping</td>
-              <td>900123456780</td>
+              <td>Waiting Payment</td>
+              <td class="text-center"><i class="fas fa-check-square"></i></td>
             </tr>
             <tr>
-              <td>0002</td>
+              <td>0004</td>
               <td>0002</td>
               <td>0002 x 1; 0001 x 2</td>
               <td>145000</td>
-              <td>Shipping</td>
-              <td>900123451502</td>
+              <td>Waiting Payment</td>
+              <td class="text-center"><i class="fas fa-check-square"></i></td>
             </tr>
           </tbody>
         </table>
