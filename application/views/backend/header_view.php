@@ -91,8 +91,8 @@
         </a>
         <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="#">List Costumers</a>
-            <a class="collapse-item" href="#">Advice</a>
+            <a class="collapse-item" href="<?= base_url('Costumer/list'); ?>">List Costumers</a>
+            <a class="collapse-item" href="<?= base_url('Costumer/advice'); ?>">Advice</a>
           </div>
         </div>
       </li>
